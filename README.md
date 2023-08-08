@@ -1,98 +1,23 @@
-# 05 Third-Party APIs: Work Day Scheduler
+# Work Day Scheduler
 
-## Your Task
+This Work Day Scheduler is a user-friendly calendar application that allows users to efficiently manage their daily tasks and events.
 
-Create a simple calendar application that allows a user to save events for each hour of a typical working day (9am&ndash;5pm) by modifying starter code. This app will run in the browser and feature dynamically updated HTML and CSS powered by jQuery.
+## Overview
 
-You'll need to use the [Day.js](https://day.js.org/en/) library to work with date and time. Be sure to read the documentation carefully and concentrate on using Day.js in the browser.
+The primary objective of the Work Day Scheduler is to help users make the most of their time by providing a range of useful features:
 
-## User Story
+1. **Current Day Display:** At the top of the calendar, the current day is prominently shown, ensuring users are always aware of the date.
 
-```md
-AS AN employee with a busy schedule
-I WANT to add important events to a daily planner
-SO THAT I can manage my time effectively
-```
+2. **Time Blocks:** The application divides the day into convenient time blocks from 9 AM to 5 PM, facilitating the planning of activities throughout the workday.
 
-## Acceptance Criteria
+3. **Dynamic Time Block Color Coding:** Each time block is dynamically colored to represent its status – past, present, or future. This visual aid allows users to quickly identify their current position in the day's schedule.
 
-```md
-GIVEN I am using a daily planner to create a schedule
-WHEN I open the planner
-THEN the current day is displayed at the top of the calendar
-WHEN I scroll down
-THEN I am presented with timeblocks for standard business hours of 9am&ndash;5pm
-WHEN I view the timeblocks for that day
-THEN each timeblock is color coded to indicate whether it is in the past, present, or future
-WHEN I click into a timeblock
-THEN I can enter an event
-WHEN I click the save button for that timeblock
-THEN the text for that event is saved in local storage
-WHEN I refresh the page
-THEN the saved events persist
-```
+4. **Event Entry:** Users can effortlessly input calendar events by clicking on the respective time block. This feature enables easy and quick event scheduling.
 
-The following animation demonstrates the application functionality:
+5. **Event Saving:** The application provides a "Save" button alongside each time block. When users enter an event and click the "Save" button, the application securely stores the event to prevent any data loss.
 
-![A user clicks on slots on the color-coded calendar and edits the events.](./Assets/05-third-party-apis-homework-demo.gif)
+6. **Event Saving Animation:** Upon successfully saving an event, users are treated to a delightful animation, ensuring a satisfying user experience.
 
-## Grading Requirements
+7. **Persistence of Events:** The Work Day Scheduler maintains the saved events even if the user refreshes or closes the page. This data persistence ensures that users can access their previous entries whenever they return to the application.
 
-> **Note**: If a Challenge assignment submission is marked as “0”, it is considered incomplete and will not count towards your graduation requirements. Examples of incomplete submissions include the following:
->
-> * A repository that has no code
->
-> * A repository that includes a unique name but nothing else
->
-> * A repository that includes only a README file but nothing else
->
-> * A repository that only includes starter code
-
-This Challenge is graded based on the following criteria:
-
-### Technical Acceptance Criteria: 40%
-
-* Satisfies all of the above acceptance criteria plus the following:
-
-  * Uses a date utility library to work with date and time
-
-### Deployment: 32%
-
-* Application deployed at live URL
-
-* Application loads with no errors
-
-* Application GitHub URL submitted
-
-* GitHub repo contains application code
-
-### Application Quality: 15%
-
-* Application user experience is intuitive and easy to navigate
-
-* Application user interface style is clean and polished
-
-* Application resembles the mock-up functionality provided in the Challenge instructions
-
-### Repository Quality: 13%
-
-* Repository has a unique name
-
-* Repository follows best practices for file structure and naming conventions
-
-* Repository follows best practices for class/id naming conventions, indentation, quality comments, etc.
-
-* Repository contains multiple descriptive commit messages
-
-* Repository contains quality README file with description, screenshot, and link to deployed application
-
-## Review
-
-You are required to submit the following for review:
-
-* The URL of the deployed application
-
-* The URL of the GitHub repository, with a unique name and a README describing the project
-
-- - -
-© 2023 edX Boot Camps LLC. Confidential and Proprietary. All Rights Reserved.
+With its intuitive design and practical functionalities, the Work Day Scheduler is an excellent tool for individuals seeking to organize their daily routines effectively. From managing appointments to keeping track of essential tasks, this calendar application aims to enhance productivity and time management skills.
